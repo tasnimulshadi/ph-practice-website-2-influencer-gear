@@ -132,7 +132,6 @@ button {
 .sec-products {
     margin-top: 10vh;
     padding-top: 20px;
-    margin-bottom: 1000px;
 }
 
 .section-title {
@@ -170,6 +169,7 @@ button {
 
 .product-price {
     font-size: 24px;
+    margin: 5px 0;
 }
 
 .product-price::before {
@@ -210,4 +210,85 @@ button {
     font-size: 16px;
     color: rgba(224, 44, 109, 0.87);
     margin-top: 50px;
+}
+
+/* Featured Section Styles */
+.featured {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.featured-img {}
+
+.featured-img img {
+    width: 404px;
+    height: 270px;
+}
+
+.featured-text {}
+
+.featured-text h2 {
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.featured-text p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #6C6C6C;
+    margin: 16px 0;
+    padding-right: 15%;
+}
+
+.featured-text button {
+    border-radius: 0;
+}
+
+/* Footer Styles */
+footer {
+    color: white;
+    background-color: #0A0826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+footer .logo-text {
+    color: white;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    background-color: #22203b;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    color: white;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons i {
+    font-size: 17px;
+
 }
